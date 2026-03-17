@@ -15,6 +15,7 @@ public class Scacchiera {
         inizializzaPezzi();
     }
 
+    //implementazione della scacchiera logica, posizionamento pezzi, gestione mosse, ecc.
     private void inizializzaPezzi() {
         // Pezzi Bianchi
         pezzi.add(new Torre(true, true, 0, 0, this)); board[0][0] = pezzi.get(pezzi.size() - 1);

@@ -1,12 +1,12 @@
 TipiPezzo\Pedone.class
 TipiPezzo\Regina.class
 TipiPezzo\Re.class
-Oggetti\Partita.class
 Oggetti\Scacchiera.class
+TipiPezzo\Alfiere.class
+Controller\ScacchieraController.class
+TipiPezzo\Torre.class
+Oggetti\Partita.class
 Oggetti\App.class
 TipiPezzo\Cavallo.class
-TipiPezzo\Alfiere.class
 Controller\MenuController.class
-Controller\ScacchieraController.class
 Oggetti\Pezzo.class
-TipiPezzo\Torre.class
