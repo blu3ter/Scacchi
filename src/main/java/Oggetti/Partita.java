@@ -15,7 +15,7 @@ public class Partita {
      */
     public boolean eseguiMossa(int rigaPartenza, int colPartenza, int rigaArrivo, int colArrivo) {
         // Delega a Scacchiera e controlla il turno
-        if (scacchiera.eseguiMossa(rigaPartenza, colPartenza, rigaArrivo, colArrivo, turnoBianco)) {
+        if (scacchiera.muoviPezzo(rigaPartenza, colPartenza, rigaArrivo, colArrivo, turnoBianco)) {
             // Controlla se la mossa ha portato a scacco matto
             if (controllaMatto()) {
                 return true; // Partita finita

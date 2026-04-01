@@ -4,5 +4,5 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "scenebuilder.executablePath": "C:\\Program Files\\SceneBuilder\\SceneBuilder.exe"
+    "javafx.scenebuilder.executablePath": "C:\\Program Files\\SceneBuilder\\SceneBuilder.exe"
 }

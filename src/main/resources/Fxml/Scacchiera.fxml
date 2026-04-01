@@ -1,207 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.*?>
-<?import javafx.scene.control.*?>
 <?import java.lang.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
 <GridPane fx:id="scacchieraGrid" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ScacchieraController">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
   </columnConstraints>
   <rowConstraints>
-      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <StackPane fx:id="c00" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera">
+      <StackPane fx:id="c00" onMouseClicked="#ClickCasella" GridPane.columnIndex="0" GridPane.rowIndex="0">
          <children>
-            <ImageView fitHeight="92.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="80.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Immagini/torre%20nera.png" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c01" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="1">
+      <StackPane fx:id="c01" onMouseClicked="#ClickCasella" GridPane.columnIndex="1" GridPane.rowIndex="0">
          <children>
-            <ImageView fitHeight="121.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="66.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Immagini/cavllonero.jpg" />
+                  <Image url="@../Immagini/cavallonero.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c02" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="2">
+      <StackPane fx:id="c02" onMouseClicked="#ClickCasella" GridPane.columnIndex="2" GridPane.rowIndex="0">
          <children>
-            <ImageView fitHeight="59.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="75.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Immagini/alfierenero.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c03" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="3">
+      <StackPane fx:id="c03" onMouseClicked="#ClickCasella" GridPane.columnIndex="3" GridPane.rowIndex="0">
          <children>
-            <ImageView fitHeight="94.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Immagini/re%20nero.png" />
-               </image>
-            </ImageView>
-         </children></StackPane>
-      <StackPane fx:id="c04" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="4">
-         <children>
-            <ImageView fitHeight="102.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="70.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Immagini/reginanera.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c05" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="5">
+      <StackPane fx:id="c04" onMouseClicked="#ClickCasella" GridPane.columnIndex="4" GridPane.rowIndex="0">
          <children>
-            <ImageView fitHeight="112.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="82.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/re%20nero.png" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c05" onMouseClicked="#ClickCasella" GridPane.columnIndex="5" GridPane.rowIndex="0">
+         <children>
+            <ImageView fitHeight="58.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Immagini/alfierenero.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c06" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="6">
+      <StackPane fx:id="c06" onMouseClicked="#ClickCasella" GridPane.columnIndex="6" GridPane.rowIndex="0">
          <children>
-            <ImageView fitHeight="102.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="83.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Immagini/cavllonero.jpg" />
+                  <Image url="@../Immagini/cavallonero.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c07" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="7">
+      <StackPane fx:id="c07" onMouseClicked="#ClickCasella" GridPane.columnIndex="7" GridPane.rowIndex="0">
          <children>
-            <ImageView fitHeight="97.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="87.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Immagini/torre%20nera.png" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c10" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.rowIndex="1" />
-      <StackPane fx:id="c11" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <StackPane fx:id="c12" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <StackPane fx:id="c13" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-      <StackPane fx:id="c14" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-      <StackPane fx:id="c15" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-      <StackPane fx:id="c16" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="6" GridPane.rowIndex="1" />
-      <StackPane fx:id="c17" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="7" GridPane.rowIndex="1" />
-      <StackPane fx:id="c20" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.rowIndex="2" />
-      <StackPane fx:id="c21" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <StackPane fx:id="c22" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-      <StackPane fx:id="c23" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-      <StackPane fx:id="c24" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-      <StackPane fx:id="c25" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-      <StackPane fx:id="c26" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="6" GridPane.rowIndex="2" />
-      <StackPane fx:id="c27" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="7" GridPane.rowIndex="2" />
-      <StackPane fx:id="c30" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.rowIndex="3" />
-      <StackPane fx:id="c31" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-      <StackPane fx:id="c32" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-      <StackPane fx:id="c33" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-      <StackPane fx:id="c34" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-      <StackPane fx:id="c35" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-      <StackPane fx:id="c36" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="6" GridPane.rowIndex="3" />
-      <StackPane fx:id="c37" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="7" GridPane.rowIndex="3" />
-      <StackPane fx:id="c40" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.rowIndex="4" />
-      <StackPane fx:id="c41" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-      <StackPane fx:id="c42" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-      <StackPane fx:id="c43" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-      <StackPane fx:id="c44" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="4" GridPane.rowIndex="4" />
-      <StackPane fx:id="c45" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="5" GridPane.rowIndex="4" />
-      <StackPane fx:id="c46" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="6" GridPane.rowIndex="4" />
-      <StackPane fx:id="c47" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="7" GridPane.rowIndex="4" />
-      <StackPane fx:id="c50" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.rowIndex="5" />
-      <StackPane fx:id="c51" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-      <StackPane fx:id="c52" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-      <StackPane fx:id="c53" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-      <StackPane fx:id="c54" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="4" GridPane.rowIndex="5" />
-      <StackPane fx:id="c55" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="5" GridPane.rowIndex="5" />
-      <StackPane fx:id="c56" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="6" GridPane.rowIndex="5" />
-      <StackPane fx:id="c57" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="7" GridPane.rowIndex="5" />
-      <StackPane fx:id="c60" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.rowIndex="6" />
-      <StackPane fx:id="c61" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-      <StackPane fx:id="c62" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-      <StackPane fx:id="c63" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="3" GridPane.rowIndex="6" />
-      <StackPane fx:id="c64" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="4" GridPane.rowIndex="6" />
-      <StackPane fx:id="c65" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="5" GridPane.rowIndex="6" />
-      <StackPane fx:id="c66" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="6" GridPane.rowIndex="6" />
-      <StackPane fx:id="c67" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="7" GridPane.rowIndex="6" />
-      <StackPane fx:id="c70" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.rowIndex="7">
+
+      <StackPane fx:id="c10" onMouseClicked="#ClickCasella" GridPane.columnIndex="0" GridPane.rowIndex="1">
          <children>
-            <ImageView fitHeight="49.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="71.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Immagini/torrebianca.jpg" />
+                  <Image url="@../Immagini/pedonenero.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c71" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="1" GridPane.rowIndex="7">
+      <StackPane fx:id="c11" onMouseClicked="#ClickCasella" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <children>
-            <ImageView fitHeight="104.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="62.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonenero.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c12" onMouseClicked="#ClickCasella" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <ImageView fitHeight="82.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonenero.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c13" onMouseClicked="#ClickCasella" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <children>
+            <ImageView fitHeight="93.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonenero.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c14" onMouseClicked="#ClickCasella" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <children>
+            <ImageView fitHeight="63.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonenero.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c15" onMouseClicked="#ClickCasella" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <children>
+            <ImageView fitHeight="111.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonenero.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c16" onMouseClicked="#ClickCasella" GridPane.columnIndex="6" GridPane.rowIndex="1">
+         <children>
+            <ImageView fitHeight="101.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonenero.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c17" onMouseClicked="#ClickCasella" GridPane.columnIndex="7" GridPane.rowIndex="1">
+         <children>
+            <ImageView fitHeight="99.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonenero.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+
+      <StackPane fx:id="c20" onMouseClicked="#ClickCasella" GridPane.columnIndex="0" GridPane.rowIndex="2" /><StackPane fx:id="c21" onMouseClicked="#ClickCasella" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <StackPane fx:id="c30" onMouseClicked="#ClickCasella" GridPane.columnIndex="2" GridPane.rowIndex="2" /><StackPane fx:id="c31" onMouseClicked="#ClickCasella" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <StackPane fx:id="c40" onMouseClicked="#ClickCasella" GridPane.columnIndex="4" GridPane.rowIndex="2" /><StackPane fx:id="c41" onMouseClicked="#ClickCasella" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <StackPane fx:id="c50" onMouseClicked="#ClickCasella" GridPane.columnIndex="6" GridPane.rowIndex="2" /><StackPane fx:id="c51" onMouseClicked="#ClickCasella" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+      <StackPane fx:id="c60" onMouseClicked="#ClickCasella" GridPane.columnIndex="0" GridPane.rowIndex="6">
+         <children>
+            <ImageView fitHeight="74.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonebianco.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c61" onMouseClicked="#ClickCasella" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <children>
+            <ImageView fitHeight="82.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonebianco.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c62" onMouseClicked="#ClickCasella" GridPane.columnIndex="2" GridPane.rowIndex="6">
+         <children>
+            <ImageView fitHeight="54.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonebianco.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c63" onMouseClicked="#ClickCasella" GridPane.columnIndex="3" GridPane.rowIndex="6">
+         <children>
+            <ImageView fitHeight="72.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonebianco.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c64" onMouseClicked="#ClickCasella" GridPane.columnIndex="4" GridPane.rowIndex="6">
+         <children>
+            <ImageView fitHeight="61.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonebianco.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c65" onMouseClicked="#ClickCasella" GridPane.columnIndex="5" GridPane.rowIndex="6">
+         <children>
+            <ImageView fitHeight="77.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonebianco.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c66" onMouseClicked="#ClickCasella" GridPane.columnIndex="6" GridPane.rowIndex="6">
+         <children>
+            <ImageView fitHeight="69.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonebianco.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c67" onMouseClicked="#ClickCasella" GridPane.columnIndex="7" GridPane.rowIndex="6">
+         <children>
+            <ImageView fitHeight="83.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/pedonebianco.jpg" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+
+      <StackPane fx:id="c70" onMouseClicked="#ClickCasella" GridPane.columnIndex="0" GridPane.rowIndex="7">
+         <children>
+            <ImageView fitHeight="99.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/torrebianca.png" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c71" onMouseClicked="#ClickCasella" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <children>
+            <ImageView fitHeight="83.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Immagini/cavallobianco.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c72" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="2" GridPane.rowIndex="7">
+      <StackPane fx:id="c72" onMouseClicked="#ClickCasella" GridPane.columnIndex="2" GridPane.rowIndex="7">
          <children>
-            <ImageView fitHeight="58.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="93.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Immagini/alfierebianco.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c73" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="3" GridPane.rowIndex="7">
+      <StackPane fx:id="c73" onMouseClicked="#ClickCasella" GridPane.columnIndex="3" GridPane.rowIndex="7">
          <children>
-            <ImageView fitHeight="113.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Immagini/re%20bianco.png" />
-               </image>
-            </ImageView>
-         </children></StackPane>
-      <StackPane fx:id="c74" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="4" GridPane.rowIndex="7">
-         <children>
-            <ImageView fitHeight="93.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="101.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Immagini/reginabianca.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c75" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="5" GridPane.rowIndex="7">
+      <StackPane fx:id="c74" onMouseClicked="#ClickCasella" GridPane.columnIndex="4" GridPane.rowIndex="7">
          <children>
-            <ImageView fitHeight="102.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="93.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Immagini/re%20bianco.png" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+      <StackPane fx:id="c75" onMouseClicked="#ClickCasella" GridPane.columnIndex="5" GridPane.rowIndex="7">
+         <children>
+            <ImageView fitHeight="81.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Immagini/alfierebianco.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c76" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #8B4513;" styleClass="casellaScacchiera" GridPane.columnIndex="6" GridPane.rowIndex="7">
+      <StackPane fx:id="c76" onMouseClicked="#ClickCasella" GridPane.columnIndex="6" GridPane.rowIndex="7">
          <children>
-            <ImageView fitHeight="81.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="85.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Immagini/cavallobianco.jpg" />
                </image>
             </ImageView>
          </children></StackPane>
-      <StackPane fx:id="c77" onMouseClicked="#ClickCasella" prefHeight="150.0" prefWidth="200.0" styleClass="casellaScacchiera" GridPane.columnIndex="7" GridPane.rowIndex="7">
+      <StackPane fx:id="c77" onMouseClicked="#ClickCasella" GridPane.columnIndex="7" GridPane.rowIndex="7">
          <children>
-            <ImageView fitHeight="94.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="72.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Immagini/torrebianca.jpg" />
+                  <Image url="@../Immagini/torrebianca.png" />
                </image>
             </ImageView>
          </children></StackPane>
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="3" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="4" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="5" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+      <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
    </children>
 </GridPane>

@@ -45,7 +45,7 @@ public class Scacchiera {
     }
 
     
-  public boolean eseguiMossa(int rigaPartenza, int colPartenza, int rigaArrivo, int colArrivo, boolean turnoBianco) {
+  public boolean muoviPezzo(int rigaPartenza, int colPartenza, int rigaArrivo, int colArrivo, boolean turnoBianco) {
     Pezzo pezzoDaMuovere = this.getPezzo(rigaPartenza, colPartenza);
     
     // Controlla che ci sia un pezzo
@@ -86,49 +86,6 @@ public class Scacchiera {
 
 
     
-
-
-    public Pezzo selezionaPezzo(int riga, int colonna, boolean turnoBianco) {
-        Pezzo pezzo = this.getPezzo(riga, colonna);
-        
-        while (pezzo == null || pezzo.bianco != turnoBianco) {
-            if (pezzo == null) {
-                System.out.println("Nessun pezzo a questa posizione! Riprova:");
-            } else {
-                System.out.println("Non puoi muovere i pezzi dell'avversario! Riprova:");
-            }
-            // Attendi nuovo input
-            pezzo = this.getPezzo(riga, colonna);
-        }
-        
-        return pezzo;
-    }
-
-    public Pezzo selezionaDestinazionePezzo(Pezzo pezzoDaMuovere, int rigaFinale, int colFinale) {
-        Pezzo pezzoDestinazione;
-        
-        do {
-            // Controlla se la destinazione è dentro la scacchiera
-            if (rigaFinale < 0 || rigaFinale >= 8 || colFinale < 0 || colFinale >= 8) {
-                System.out.println("Destinazione fuori dalla scacchiera! Riprova:");
-                // Qui attendi un nuovo input (da GUI o console)
-                continue;
-            }
-            
-            pezzoDestinazione = this.getPezzo(rigaFinale, colFinale);
-            
-            // Controlla se c'è un pezzo dello stesso colore nella destinazione
-            if (pezzoDestinazione != null && pezzoDestinazione.bianco == pezzoDaMuovere.bianco) {
-                System.out.println("Non puoi muovere in una casella occupata da un tuo pezzo! Riprova:");
-                // Qui attendi un nuovo input (da GUI o console)
-                continue;
-            }
-            
-            break; // Destinazione valida
-        } while (true);
-        
-        return pezzoDestinazione; // null se vuota, oppure pezzo nemico (catturabile)
-    }
 
 
 //GET E SET
