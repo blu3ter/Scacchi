@@ -34,9 +34,7 @@ public abstract class Pezzo{
 
     public void mangiaPezzo(Pezzo pezzoDaMangiare) {
         pezzoDaMangiare.isVivo = false; // Il pezzo mangiato non è più vivo
-        scacchiera.board[pezzoDaMangiare.rigaInizio][pezzoDaMangiare.colInizio
-
-        ] = null; // Rimuove il pezzo dalla scacchiera
+        scacchiera.board[pezzoDaMangiare.rigaInizio][pezzoDaMangiare.colInizio] = null; // Rimuove il pezzo dalla scacchiera
     }
 
 

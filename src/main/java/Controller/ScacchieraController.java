@@ -3,6 +3,7 @@ package Controller;
 import Oggetti.Partita;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
@@ -57,7 +58,7 @@ public class ScacchieraController {
             // Puliamo l'evidenziazione della casella di partenza
             StackPane casellaPrecedente = (StackPane) getNodeByRowColumnIndex(rigaPartenza, colPartenza);
             if (casellaPrecedente != null) {
-                casellaPrecedente.setStyle(""); // Rimuove il bordo giallo
+            ripristinaStileCasella(casellaPrecedente, rigaPartenza, colPartenza);
             }
 
             // Resettiamo la memoria per la prossima mossa
@@ -69,25 +70,33 @@ public class ScacchieraController {
     /**
      * Metodo per spostare fisicamente l'ImageView tra gli StackPane
      */
-    private void aggiornaGrafica(int rP, int cP, int rA, int cA) {
-        StackPane casellaOrigine = (StackPane) getNodeByRowColumnIndex(rP, cP);
-        StackPane casellaDestinazione = (StackPane) getNodeByRowColumnIndex(rA, cA);
+   private void aggiornaGrafica(int rP, int cP, int rA, int cA) {
+    StackPane casellaOrigine = (StackPane) getNodeByRowColumnIndex(rP, cP);
+    StackPane casellaDestinazione = (StackPane) getNodeByRowColumnIndex(rA, cA);
 
-        if (casellaOrigine != null && casellaDestinazione != null) {
-            // Se c'è un'immagine (pezzo) nella casella di partenza
-            if (!casellaOrigine.getChildren().isEmpty()) {
-                // Prendiamo il primo figlio dello StackPane (l'ImageView)
-                Node pezzoImmagine = casellaOrigine.getChildren().get(0);
-                
-                // Rimuoviamo eventuali immagini presenti nella destinazione (caso di pezzo mangiato)
-                casellaDestinazione.getChildren().clear();
-                
-                // Spostiamo il pezzo
-                casellaOrigine.getChildren().remove(pezzoImmagine);
-                casellaDestinazione.getChildren().add(pezzoImmagine);
-            }
+    if (casellaOrigine != null && casellaDestinazione != null) {
+        if (!casellaOrigine.getChildren().isEmpty()) {
+            Node pezzoImmagine = casellaOrigine.getChildren().get(0);
+            
+            // Invece di .clear(), cerchiamo se c'è già un'immagine e rimuoviamo solo quella
+            casellaDestinazione.getChildren().removeIf(node -> node instanceof ImageView);
+            
+            casellaOrigine.getChildren().remove(pezzoImmagine);
+            casellaDestinazione.getChildren().add(pezzoImmagine);
         }
     }
+}
+
+
+    private void ripristinaStileCasella(StackPane casella, int riga, int colonna) {
+    // Se la somma di riga e colonna è dispari, la casella è scura
+    if ((riga + colonna) % 2 != 0) {
+        casella.setStyle("-fx-background-color: #D3D3D3;");
+    } else {
+        // Altrimenti è chiara (nessuno sfondo specifico necessario)
+        casella.setStyle("");
+    }
+}
 
     /**
      * Metodo di supporto per trovare una casella nel GridPane conoscendo le coordinate

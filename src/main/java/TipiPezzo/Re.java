@@ -5,8 +5,8 @@ import Oggetti.Scacchiera;
 
 public class Re extends Pezzo{
 
-    public Re(boolean bianco, boolean isVivo, int rigaInizio, int Inizio, Scacchiera scacchiera) {
-        super(bianco, isVivo, rigaInizio, Inizio, scacchiera);
+    public Re(boolean bianco, boolean isVivo, int riga, int colonna, Scacchiera scacchiera) {
+        super(bianco, isVivo, riga, colonna, scacchiera);
     }
 
     @Override
