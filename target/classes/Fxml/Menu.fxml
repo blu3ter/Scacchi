@@ -30,12 +30,12 @@
             </Text>
             <HBox alignment="CENTER" prefHeight="130.0" prefWidth="600.0" spacing="50.0">
                <children>
-                  <ImageView fitHeight="120.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="110.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../Immagini/re%20nero.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="120.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="110.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../Immagini/re%20bianco.png" />
                      </image>
