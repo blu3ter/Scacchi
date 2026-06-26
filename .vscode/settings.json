@@ -1,8 +1,11 @@
 {
-    "java.project.sourcePaths": ["src"],
+    "java.project.sourcePaths": [
+        "src"
+    ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
     ],
-    "javafx.scenebuilder.executablePath": "C:\\Program Files\\SceneBuilder\\SceneBuilder.exe"
+    "javafx.scenebuilder.executablePath": "C:\\Program Files\\SceneBuilder\\SceneBuilder.exe",
+    "java.configuration.updateBuildConfiguration": "automatic"
 }

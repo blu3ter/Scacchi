@@ -27,53 +27,69 @@
   </rowConstraints>
    <children>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="0" GridPane.rowIndex="0">
-         <children><ImageView fitHeight="80.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/torre%20nera.png" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/torrenera.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="1" GridPane.rowIndex="0">
-         <children><ImageView fitHeight="66.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/cavallonero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/cavallonero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="2" GridPane.rowIndex="0">
-         <children><ImageView fitHeight="75.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/alfierenero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/alfierenero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="3" GridPane.rowIndex="0">
-         <children><ImageView fitHeight="70.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/reginanera.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/reginanera.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="4" GridPane.rowIndex="0">
-         <children><ImageView fitHeight="82.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/re%20nero.png" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/re%20nero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="5" GridPane.rowIndex="0">
-         <children><ImageView fitHeight="58.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/alfierenero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/alfierenero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="6" GridPane.rowIndex="0">
-         <children><ImageView fitHeight="83.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/cavallonero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/cavallonero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="7" GridPane.rowIndex="0">
-         <children><ImageView fitHeight="87.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/torre%20nera.png" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/torrenera.png" /></image></ImageView></children>
       </StackPane>
 
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="0" GridPane.rowIndex="1">
-         <children><ImageView fitHeight="71.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonenero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonenero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="1" GridPane.rowIndex="1">
-         <children><ImageView fitHeight="62.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonenero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonenero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="2" GridPane.rowIndex="1">
-         <children><ImageView fitHeight="82.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonenero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonenero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="3" GridPane.rowIndex="1">
-         <children><ImageView fitHeight="93.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonenero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonenero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="4" GridPane.rowIndex="1">
-         <children><ImageView fitHeight="63.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonenero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonenero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="5" GridPane.rowIndex="1">
-         <children><ImageView fitHeight="111.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonenero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonenero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="6" GridPane.rowIndex="1">
-         <children><ImageView fitHeight="101.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonenero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonenero.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="7" GridPane.rowIndex="1">
-         <children><ImageView fitHeight="99.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonenero.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonenero.png" /></image></ImageView></children>
       </StackPane>
 
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="0" GridPane.rowIndex="2" /><StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
@@ -97,53 +113,69 @@
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="6" GridPane.rowIndex="5" /><StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="7" GridPane.rowIndex="5" />
 
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="0" GridPane.rowIndex="6">
-         <children><ImageView fitHeight="74.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonebianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="95.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonebianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="1" GridPane.rowIndex="6">
-         <children><ImageView fitHeight="82.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonebianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="95.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonebianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="2" GridPane.rowIndex="6">
-         <children><ImageView fitHeight="54.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonebianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="95.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonebianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="3" GridPane.rowIndex="6">
-         <children><ImageView fitHeight="72.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonebianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="95.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonebianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="4" GridPane.rowIndex="6">
-         <children><ImageView fitHeight="61.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonebianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="95.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonebianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="5" GridPane.rowIndex="6">
-         <children><ImageView fitHeight="77.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonebianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="95.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonebianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="6" GridPane.rowIndex="6">
-         <children><ImageView fitHeight="69.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonebianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="95.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonebianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="7" GridPane.rowIndex="6">
-         <children><ImageView fitHeight="83.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/pedonebianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="95.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/pedonebianco.png" /></image></ImageView></children>
       </StackPane>
 
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="0" GridPane.rowIndex="7">
-         <children><ImageView fitHeight="99.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/torrebianca.png" /></image></ImageView></children>
+         <children><ImageView fitHeight="95.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/torrebianca.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="1" GridPane.rowIndex="7">
-         <children><ImageView fitHeight="83.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/cavallobianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/cavallobianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="2" GridPane.rowIndex="7">
-         <children><ImageView fitHeight="93.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/alfierebianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/alfierebianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="3" GridPane.rowIndex="7">
-         <children><ImageView fitHeight="101.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/reginabianca.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/reginabianca.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="4" GridPane.rowIndex="7">
-         <children><ImageView fitHeight="93.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/re%20bianco.png" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/re%20bianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="5" GridPane.rowIndex="7">
-         <children><ImageView fitHeight="81.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/alfierebianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/alfierebianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" style="-fx-background-color: #D3D3D3;" GridPane.columnIndex="6" GridPane.rowIndex="7">
-         <children><ImageView fitHeight="85.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/cavallobianco.jpg" /></image></ImageView></children>
+         <children><ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/cavallobianco.png" /></image></ImageView></children>
       </StackPane>
       <StackPane onMouseClicked="#ClickCasella" GridPane.columnIndex="7" GridPane.rowIndex="7">
-         <children><ImageView fitHeight="72.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true"><image><Image url="@../Immagini/torrebianca.png" /></image></ImageView></children>
+         <children><ImageView fitHeight="95.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true
+         "><image><Image url="@../Immagini/torrebianca.png" /></image></ImageView></children>
       </StackPane>
    </children>
 </GridPane>
